@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    
+}
+.content div{
+    background-color:#045076 ;
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+    color: white;
+    border-radius:  10px;
+}

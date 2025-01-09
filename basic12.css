@@ -1,0 +1,43 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .item {
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(25% - 10px); /* 4 عناصر في الصف */
+    min-height: 100px;
+  }
+  
+  /* Sub-items Grid */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .sub-item {
+    background-color: #b0b0b0;
+    flex: 1 1 calc(50% - 5px); /* يقسم إلى نصفين */
+    padding: 10px;
+    text-align: center;
+  }
+  

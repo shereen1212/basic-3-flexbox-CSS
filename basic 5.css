@@ -1,0 +1,28 @@
+.r0{
+    display: flex;
+    width: 600px;
+    height: 0;
+    margin: 10px;
+    padding: 15px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.r{
+    background-color: rgb(8, 8, 125);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+.r4{flex-basis: 120px;}
+.r5{flex-basis: 150px;}
+.r6{flex-basis: 120px}
+.r7{flex-basis: 150px;}
+.r8{flex-basis: 150px;}
+.r9{flex-basis: 130px;}
+.r10{flex-basis: 140px;}
